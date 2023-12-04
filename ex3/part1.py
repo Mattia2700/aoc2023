@@ -28,7 +28,7 @@ def check_around(lines, i, j):
         valid |= check_symbol(lines[i + 1][j + 1])
     return valid
 
-with open('/home/dhilab-mattia/Desktop/aoc2023/ex3/input.txt') as f:
+with open('input.txt') as f:
     lines = f.readlines()
 
 # filter out empty lines

@@ -57,7 +57,7 @@ def check_around(lines, i, j):
 
     return indexes
 
-with open('/home/dhilab-mattia/Desktop/aoc2023/ex3/input.txt') as f:
+with open('input.txt') as f:
     lines = f.readlines()
 
 # filter out empty lines
